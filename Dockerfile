@@ -7,4 +7,4 @@ COPY package.json .
 RUN npm install --production
 EXPOSE 9000
 ENTRYPOINT ["node", "bin/peerjs"]
-CMD ["bin/peerjs","--port", "9000", "--path", "/myapp"]
+CMD ["bin/peerjs","--port", "9000"]
